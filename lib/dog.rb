@@ -1,7 +1,4 @@
-# dog.rb
-# def moods 
-#   if @mood == "swimming"
-#     moods = "happy"
+
 
 class Dog
   attr_accessor :name, :breed
@@ -10,6 +7,7 @@ class Dog
 @name=name
 
 @breed=breed
+
 end
 end
 
@@ -19,7 +17,7 @@ def breeds
   end
 end
 
-dog_one=Dog.new("Stan","default")
+dog_one = Dog.new("Stan","default")
 
 puts dog_one.name
 puts dog_one.breed
