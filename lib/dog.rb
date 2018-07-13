@@ -9,9 +9,9 @@ class Dog
 @breed=breed
 
 end
-end
 
-dog = Dog.new("Stan","Mutt")
 
-puts dog.name
-puts dog.breed
+dog_one=Dog.new("Stan","Mutt")
+
+puts dog_one.name
+puts dog_one.breed
